@@ -1,0 +1,23 @@
+.btn{
+    background: #0077ff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: beige;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 1rem;
+    outline: none;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+/* .btn i{
+    font-weight: normal;
+} */
+.btn:hover {
+    background :  #004a9e;
+}

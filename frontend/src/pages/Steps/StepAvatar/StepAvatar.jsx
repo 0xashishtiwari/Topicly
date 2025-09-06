@@ -1,0 +1,12 @@
+import React from 'react'
+import Button from '../../../components/shared/Button/Button'
+
+const StepAvatar = ({onNext}) => {
+  return (
+        <div>StepAvatar
+     <Button onclick={onNext} text="Next" />
+     </div>
+  )
+}
+
+export default StepAvatar
