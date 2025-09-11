@@ -14,7 +14,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   function startRegister (){
-    navigate('/register');
+    navigate('/authenticate');
   }
   return (
 
@@ -31,11 +31,11 @@ const Home = () => {
         community where ideas flow and connections grow.
       </p>
       <div>
-        <Button onclick={startRegister} text="Get your username"/>
+        <Button onClick={startRegister} text="Let's go"/>
       </div>
       <div className="signInWrapper">
         <span className="hasInvite">Already have an account?</span>
-        <Link style={sigInLinkStyle} to={"/login"}>Sign in</Link>
+        <Link style={sigInLinkStyle} to={"/authenticate"}>Sign in</Link>
       </div>
         </Card>
         

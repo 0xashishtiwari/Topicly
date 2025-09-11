@@ -2,10 +2,13 @@
     width: 500px;
     max-width: 90%;
     min-height: 300px;
-   background: #343435;  /* Google dark theme */
+   background: #272424;  /* Google dark theme */
     padding: 30px;
     border-radius: 20px;
-    text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
 .headingWrapper{
